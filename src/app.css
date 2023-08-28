@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-pt-[70px] md:scroll-pt-0;
+  }
+
+  body {
+    background-color: #F8E86E;
+    background-image: url("/images/gamma_background.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    font-family: 'IBM Plex Sans',
+    sans-serif;
+  }
+
+  p, li {
+    @apply text-lg
+  }
+  p {
+    @apply mt-4
+  }
+  ul {
+    @apply mt-4
+  }
+  li {
+    @apply ml-4
+  }
+  a {
+    @apply text-black underline font-bold;
+  }
+
+  h1 {
+    @apply text-4xl mt-4;
+  }
+
+  h2 {
+    @apply text-3xl font-bold mt-4;
+  }
+
+  h2.faq {
+    @apply text-2xl mt-4;
+  }
+
+  h3 {
+    @apply mt-6 font-bold text-2xl;
+  }
+
+  .main-header {
+    transition: background-color 0.15s;
+  }
+
+  .main-menu {
+    transition: max-height 0.25s;
+  }
+}
