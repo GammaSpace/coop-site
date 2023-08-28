@@ -11,7 +11,7 @@
 
   body {
     background-color: #F8E86E;
-    background-image: url("/images/gamma_background.png");
+    //background-image: url("/images/gamma_background.png");
     background-position: top left;
     background-repeat: no-repeat;
     font-family: 'IBM Plex Sans',
@@ -22,7 +22,7 @@
     @apply text-lg
   }
   p {
-    @apply mt-4
+    @apply mt-4 leading-7; 
   }
   ul {
     @apply mt-4
@@ -47,7 +47,11 @@
   }
 
   h3 {
-    @apply mt-6 font-bold text-2xl;
+    @apply mt-6 uppercase font-bold text-2xl;
+  }
+
+  h4 {
+    @apply my-2 uppercase font-bold text-xl;
   }
 
   .main-header {
@@ -56,5 +60,21 @@
 
   .main-menu {
     transition: max-height 0.25s;
+  }
+
+  .intro h1 {
+    @apply text-3xl md:text-4xl mb-8;
+  }
+
+  .intro p {
+    @apply max-w-[400px];
+  }
+
+  .faq-q h2 {
+    @apply mt-0 border-2 border-black rounded-md p-2 mb-6 decoration-transparent;
+  }
+
+  .faq-a h2 {
+    @apply text-2xl;
   }
 }

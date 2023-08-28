@@ -1,5 +1,6 @@
 <script lang="ts">
   import ValuesFaq from "$lib/content/faq/ValuesFaq.md?raw";
+  import FaqIntro from "$lib/content/faq/FaqIntro.md?raw";
   import SvelteMarkdown from 'svelte-markdown'; 
 
   let toCValues: Array<string>;
@@ -59,26 +60,50 @@
   }
 </script>
 
-  <div class="flex flex-wrap">
-    <div class="md:w-3/4 lg:w-full">
-      <div class="values-faq">
-        <h2 class="w-full">Values FAQ</h2>
-        <div class="w-full lg:grid lg:grid-cols-2 gap-8">
-          <div>
-            {#if toCValues != undefined}
-              {#each toCValues as q}
-                {@html q}
-              {/each}
-            {/if}
-          </div>
-          <div>
-            <SvelteMarkdown 
-              renderers={{idRenderer}} 
-              source={ValuesFaq} 
-              on:parsed={(ev)=>createToC(ev, "values")}
-            />
-          </div>
-        </div>
+<div class="max-w-[800px]">
+  <div>
+    <div class="intro">
+      <SvelteMarkdown source={FaqIntro} />
+    </div>
+  </div>
+</div>
+<div class="md:w-3/4 mt-16 lg:w-full">
+  <div class="values-faq mb-12">
+    <h2 class="w-full mb-8">Values</h2>
+    <div class="w-full lg:grid lg:grid-cols-2 gap-8">
+      <div class="faq-q">
+        {#if toCValues != undefined}
+          {#each toCValues as q}
+            {@html q}
+          {/each}
+        {/if}
+      </div>
+      <div class="faq-a px-4 pb-4 bg-yellow-100">
+        <SvelteMarkdown 
+          renderers={{idRenderer}} 
+          source={ValuesFaq} 
+          on:parsed={(ev)=>createToC(ev, "values")}
+        />
       </div>
     </div>
   </div>
+  <div class="coop-faq">
+    <h2 class="w-full mb-8">Co-op</h2>
+    <div class="w-full lg:grid lg:grid-cols-2 gap-8">
+      <div class="faq-q">
+        {#if toCValues != undefined}
+          {#each toCValues as q}
+            {@html q}
+          {/each}
+        {/if}
+      </div>
+      <div class="faq-a px-4 pb-4 bg-yellow-100">
+        <SvelteMarkdown 
+          renderers={{idRenderer}} 
+          source={ValuesFaq} 
+          on:parsed={(ev)=>createToC(ev, "values")}
+        />
+      </div>
+    </div>
+  </div>
+</div>
