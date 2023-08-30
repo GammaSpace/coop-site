@@ -10,7 +10,7 @@
   }
 
   body {
-    background-color: #F8E86E;
+    background-color: #F2E57C;
     //background-image: url("/images/gamma_background.png");
     background-position: top left;
     background-repeat: no-repeat;
@@ -70,11 +70,17 @@
     @apply max-w-[400px];
   }
 
-  .faq-q h2 {
-    @apply mt-0 border-2 border-black rounded-md p-2 mb-6 decoration-transparent;
+  .faq-q h2,
+  .faq-q h3,
+  .faq-q h3 {
+    @apply text-xl md:text-2xl mt-4 border-2 border-black rounded-md px-4 py-2 mb-6 decoration-transparent;
   }
 
   .faq-a h2 {
     @apply text-2xl;
+  }
+
+  .activity-box {
+    @apply bg-gammaYellowLight px-4 pt-2 pb-4 mb-8;
   }
 }

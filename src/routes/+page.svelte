@@ -50,12 +50,12 @@
 </div>
 <h3 class="pt-8">Current Member Activities</h3>
 <div class="lg:grid lg:grid-cols-2 pt-4 gap-8">
-  <div class="bg-yellow-100 px-2 pb-2 mb-8">
+  <div class="activity-box">
     <h4>IRP</h4>
     <div class="h-[200px] bg-purple-200"></div>
     <p>Based on our community's collectively developed mentorship program, investors Weird Ghosts and Gamma Space have partnered to create a six-month program in support of emerging underrepresented founders and studios. Participants identify and solve studio development pain points by addressing the challenges of the "three Ps": Product, Production, and Pitching.</p>
   </div>
-  <div class="bg-yellow-100 p-2 mb-8">
+  <div class="activity-box">
     <h4>Member Game Jam</h4>
     <div class="h-[200px] bg-purple-200"></div>
     <p>Based on our community's collectively developed mentorship program, investors Weird Ghosts and Gamma Space have partnered to create a six-month program in support of emerging underrepresented founders and studios. Participants identify and solve studio development pain points by addressing the challenges of the "three Ps": Product, Production, and Pitching.</p>

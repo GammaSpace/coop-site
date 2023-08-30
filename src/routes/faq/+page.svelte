@@ -1,63 +1,54 @@
 <script lang="ts">
   import ValuesFaq from "$lib/content/faq/ValuesFaq.md?raw";
+  import MemberFaq from "$lib/content/faq/MemberFaq.md?raw";
   import FaqIntro from "$lib/content/faq/FaqIntro.md?raw";
+  import FaqAnswer from "$lib/components/FaqAnswer.svelte";
+  import FaqQuestion from "$lib/components/FaqQuestion.svelte";
   import SvelteMarkdown from 'svelte-markdown'; 
+  import { marked } from "marked";
+  import { onMount } from "svelte";
 
-  let toCValues: Array<string>;
-  let toCCoop: Array<string>;
-  let toCMember: Array<string>;
+  const tabs = [
+    [ "Values", ValuesFaq ],
+    [ "Co-op", ValuesFaq ],
+    [ "Membership", MemberFaq ]
+  ]
 
-  const sanitizeRegex = /[^\w-]+/g
+  let currentTab = 0;
+  let questions:Array<string>;
+  let answers:Array<Array<string>>;
+  let qIndex:number = -1;
+  let faqSource = tabs[currentTab][1];
+  let faqParsed = ``;
+  
+  function changeTab( index:number ) {
+    currentTab = index;
+    questions = [];
+    answers = [];
+    qIndex = -1;
+    faqSource = tabs[currentTab][1];
+    faqParsed = marked.parse(faqSource);
+    //console.log(questions);
+    //console.log(answers);
+  }
 
-  const idRenderer = {
-    heading(text:string, level:string) {
-      const dashed = text.replace(/ /g,`-`);
-      const target = dashed.replace(sanitizeRegex,``).toLowerCase();
-      console.log(target);
+  const renderer = {
+    heading(text, level) {
       return `
-        <h${level} id="${dashed}">
-          ${text}
-        </h${level}>
-      `;
-    }
-  };
-
-  function createToC(event, toC) {
-    let tempToC:Array<string> = [];
-    event.detail.tokens.forEach((val,index)=>{
-      if ( val.type == "heading" ) {
-      const dashed = val.text.replace(/ /g,`-`);
-      const target = dashed.replace(sanitizeRegex,``).toLowerCase();
-        tempToC.push(
-          `<h${val.depth} class="faq">
-            <a href="#${target}">
-              ${val.text}
-            </a>
-          </h${val.depth}>`
-        );
-      } else if ( val.type == "paragraph" ) {
-        val.raw = val.raw.replace(/\[\^([0-9]+)\]/g, `<sup>$1</sup>`);
-      } else if ( val.type == "list" ) {
-        val.items.forEach(item=>{
-          item.raw.replace(/\[\^([0-9]+)\]/g, `<sup>$1</sup>`);
-        })
-      }
-    });
-    switch ( toC ) {
-      case "values":
-        toCValues = [];
-        toCValues = tempToC;
-        break;
-      case "coop":
-        toCCoop = [];
-        toCCoop = tempToC;
-        break;
-      case "member":
-        toCMember = [];
-        toCMember = tempToC;
-        break;
+        <div class="faq-q">
+          <h${level}>
+            ${text}
+          </h${level}>
+        </div>
+      `
     }
   }
+
+  marked.use({ renderer })
+
+  onMount( ()=>{
+    changeTab( 0 );
+  })
 </script>
 
 <div class="max-w-[800px]">
@@ -68,42 +59,29 @@
   </div>
 </div>
 <div class="md:w-3/4 mt-16 lg:w-full">
-  <div class="values-faq mb-12">
-    <h2 class="w-full mb-8">Values</h2>
-    <div class="w-full lg:grid lg:grid-cols-2 gap-8">
-      <div class="faq-q">
-        {#if toCValues != undefined}
-          {#each toCValues as q}
-            {@html q}
-          {/each}
-        {/if}
-      </div>
-      <div class="faq-a px-4 pb-4 bg-yellow-100">
-        <SvelteMarkdown 
-          renderers={{idRenderer}} 
-          source={ValuesFaq} 
-          on:parsed={(ev)=>createToC(ev, "values")}
-        />
-      </div>
+  <div class="values-faq">
+    <div class="">
+      {#each tabs as tab, index}
+        <h2 class="inline w-full mb-8 mr-1 md:mr-4 pb-1 {currentTab == index ? `bg-black text-white` : ``}">
+          <button class="{ currentTab != index ? `underline` : ``} px-2 text-xl md:text-3xl" on:click={()=>changeTab( index )}>
+            {tabs[index][0]}
+          </button>
+        </h2>
+      {/each}
     </div>
   </div>
-  <div class="coop-faq">
-    <h2 class="w-full mb-8">Co-op</h2>
-    <div class="w-full lg:grid lg:grid-cols-2 gap-8">
-      <div class="faq-q">
-        {#if toCValues != undefined}
-          {#each toCValues as q}
-            {@html q}
-          {/each}
-        {/if}
-      </div>
-      <div class="faq-a px-4 pb-4 bg-yellow-100">
-        <SvelteMarkdown 
-          renderers={{idRenderer}} 
-          source={ValuesFaq} 
-          on:parsed={(ev)=>createToC(ev, "values")}
-        />
-      </div>
+</div>
+<hr class="w-full border-2 mt-1 border-black">
+<div class="md:w-3/4 lg:w-full">
+  <div class="values-faq mb-12">
+    <div class="lg:grid lg:grid-cols-2 gap-8 mb-4">
+      {@html faqParsed}
+      <!--{#if questions != undefined }
+        {#each questions as q, index}
+          <div class="faq-q">{@html q}</div>
+          <div class="faq-a">{@html answers[index]}</div>
+        {/each}
+      {/if}-->
     </div>
   </div>
 </div>

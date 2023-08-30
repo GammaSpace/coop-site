@@ -2,7 +2,12 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        gammaYellowBackground: "#F2E57C",
+        gammaYellowLight: "#FFF6B8",
+      }
+    },
   },
   plugins: [],
 }
