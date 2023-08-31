@@ -1,16 +1,15 @@
 <script lang="ts">
   import ValuesFaq from "$lib/content/faq/ValuesFaq.md?raw";
   import MemberFaq from "$lib/content/faq/MemberFaq.md?raw";
+  import CoopFaq from "$lib/content/faq/CoopFaq.md?raw";
   import FaqIntro from "$lib/content/faq/FaqIntro.md?raw";
-  import FaqAnswer from "$lib/components/FaqAnswer.svelte";
-  import FaqQuestion from "$lib/components/FaqQuestion.svelte";
   import SvelteMarkdown from 'svelte-markdown'; 
   import { marked } from "marked";
   import { onMount } from "svelte";
 
   const tabs = [
     [ "Values", ValuesFaq ],
-    [ "Co-op", ValuesFaq ],
+    [ "Co-op", CoopFaq ],
     [ "Membership", MemberFaq ]
   ]
 
