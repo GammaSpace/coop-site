@@ -81,6 +81,6 @@
   }
 
   .activity-box {
-    @apply bg-gammaYellowLight px-4 pt-2 pb-4 mb-8;
+    @apply bg-gammaYellowLight px-4 py-2 mb-8;
   }
 }

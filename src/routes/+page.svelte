@@ -3,6 +3,9 @@
   import SvelteMarkdown from "svelte-markdown";
   import GSAbout from "$lib/content/home/GSAbout.md?raw";
   import PeerAccelerator from "$lib/content/home/PeerAccelerator.md?raw"
+  import Publishing from "$lib/content/home/Publishing.md?raw"
+  import IRP from "$lib/content/home/IRP.md?raw"
+  import MemberJam from "$lib/content/home/MemberJam.md?raw"
 </script>
 
 <div class="max-w-[800px]">
@@ -15,49 +18,40 @@
     </div>
   </div>
 </div>
-<div class="lg:grid lg:grid-cols-2 gap-8">
-  <div></div>
-  <div class="text-center my-8 lg:-my-12 md:text-left">
-    <a
-      class="bg-black no-underline uppercase inline-block text-lg text-white px-4 py-1 rounded-lg mr-2"
-      href="http://eepurl.com/dqLW3v"
-      target="_blank"
-    >
-      Mailing List Signup
-    </a>
-  </div>
-</div>
-<div class="lg:grid lg:grid-cols-2 gap-8 pt-0 lg:pt-8">
-  <div>
-    <p class="text-xl">
-      We are currently expanding learning and support for our work through two main programs:  
-    </p>
-  </div>
+<div class="text-center my-8 md:text-left">
+  <a
+    class="bg-black no-underline uppercase inline-block text-lg text-white px-4 py-1 rounded-lg mr-2"
+    href="http://eepurl.com/dqLW3v"
+    target="_blank"
+  >
+    Mailing List Signup
+  </a>
 </div>
 <div>
-  <h2 class="py-4">Peer Accelerator</h2>
+  <h2 class="">Our Programs</h2>
+  <h3 class="pb-4">Peer Accelerator</h3>
   <div class="rounded-md border-2 px-4 pb-4 border-black">
     <div class="lg:grid lg:grid-cols-2 gap-16">
       <SvelteMarkdown source={PeerAccelerator} />
     </div>  
   </div>
-  <h2 class="py-4">Publishing</h2>
+  <h3 class="py-4">Publishing</h3>
   <div class="rounded-md border-2 px-4 pb-4 border-black">
     <div class="lg:grid lg:grid-cols-2 gap-16">
-      <SvelteMarkdown source={PeerAccelerator} />
+      <SvelteMarkdown source={Publishing} />
     </div>  
   </div>
 </div>
-<h3 class="pt-8">Current Member Activities</h3>
+<h2 class="pt-8">Current Activities</h2>
 <div class="lg:grid lg:grid-cols-2 pt-4 gap-8">
   <div class="activity-box">
-    <h4>IRP</h4>
+    <h4>Investment Readiness Program</h4>
     <div class="h-[200px] bg-purple-200"></div>
-    <p>Based on our community's collectively developed mentorship program, investors Weird Ghosts and Gamma Space have partnered to create a six-month program in support of emerging underrepresented founders and studios. Participants identify and solve studio development pain points by addressing the challenges of the "three Ps": Product, Production, and Pitching.</p>
+    <SvelteMarkdown source={IRP} />
   </div>
   <div class="activity-box">
     <h4>Member Game Jam</h4>
     <div class="h-[200px] bg-purple-200"></div>
-    <p>Based on our community's collectively developed mentorship program, investors Weird Ghosts and Gamma Space have partnered to create a six-month program in support of emerging underrepresented founders and studios. Participants identify and solve studio development pain points by addressing the challenges of the "three Ps": Product, Production, and Pitching.</p>
+    <SvelteMarkdown source={MemberJam} />
   </div>
 </div>

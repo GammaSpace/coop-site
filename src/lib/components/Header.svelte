@@ -4,7 +4,7 @@
 
   const menu = [
     ["Home","/"],
-    ["About","/about"],
+    //["About","/about"],
     ["FAQ","/faq"],
   ]
 
