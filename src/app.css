@@ -22,7 +22,7 @@
     @apply text-lg
   }
   p {
-    @apply mt-4 leading-7; 
+    @apply mt-4 leading-[1.6rem]; 
   }
   ul {
     @apply mt-4
@@ -81,6 +81,6 @@
   }
 
   .activity-box {
-    @apply bg-gammaYellowLight px-4 py-2 mb-8;
+    @apply bg-gammaYellowLight px-4 py-2 mb-8 rounded-sm;
   }
 }

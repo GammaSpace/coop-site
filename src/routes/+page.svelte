@@ -46,12 +46,12 @@
 <div class="lg:grid lg:grid-cols-2 pt-4 gap-8">
   <div class="activity-box">
     <h4>Investment Readiness Program</h4>
-    <div class="h-[200px] bg-purple-200"></div>
+    <div class="h-[200px] bg-purple-200 mb-8"></div>
     <SvelteMarkdown source={IRP} />
   </div>
   <div class="activity-box">
     <h4>Member Game Jam</h4>
-    <div class="h-[200px] bg-purple-200"></div>
+    <div class="h-[200px] bg-purple-200 mb-8"></div>
     <SvelteMarkdown source={MemberJam} />
   </div>
 </div>

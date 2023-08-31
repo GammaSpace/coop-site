@@ -40,6 +40,11 @@
           </h${level}>
         </div>
       `
+    },
+    paragraph(text) {
+      return `
+        <p class="pb-8 lg:pb-0">${text}</p>
+      `
     }
   }
 
@@ -71,7 +76,7 @@
   </div>
 </div>
 <hr class="w-full border-2 mt-1 border-black">
-<div class="md:w-3/4 lg:w-full">
+<div class="md:w-3/4 lg:w-full pt-2">
   <div class="values-faq mb-12">
     <div class="lg:grid lg:grid-cols-2 gap-8 mb-4">
       {@html faqParsed}

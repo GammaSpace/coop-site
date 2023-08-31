@@ -5,7 +5,7 @@
 </script>
 
 <Header />
-<div class="relative mt-24 md:mt-12 px-8 md:px-12 mx-auto max-w-screen-xl">
+<div class="relative mt-24 md:mt-12 px-8 md:px-16 mx-auto max-w-screen-xl">
   <slot />
 </div>
 <Footer />
