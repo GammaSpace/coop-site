@@ -4,8 +4,9 @@
 </script>
 
 <footer class="bottom-0 max-w-screen-xl mx-auto px-8">
+  <hr class="border-2 border-black mx-auto w-[95%]"/>
   <div
-    class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
+    class="max-w-screen-xl mx-auto pt-4 pb-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
   >
     <div class="flex justify-center md:order-2">
       <a href="tel:6476896005" class="flex">

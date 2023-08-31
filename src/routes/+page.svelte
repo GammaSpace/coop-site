@@ -28,14 +28,14 @@
   </a>
 </div>
 <div>
-  <h2 class="">Our Programs</h2>
-  <h3 class="pb-4">Peer Accelerator</h3>
+  <h2 class="mt-12">Our Programs</h2>
+  <h3 class="pb-2">Peer Accelerator</h3>
   <div class="rounded-md border-2 px-4 pb-4 border-black">
     <div class="lg:grid lg:grid-cols-2 gap-16">
       <SvelteMarkdown source={PeerAccelerator} />
     </div>  
   </div>
-  <h3 class="py-4">Publishing</h3>
+  <h3 class="pt-4 pb-2">Publishing</h3>
   <div class="rounded-md border-2 px-4 pb-4 border-black">
     <div class="lg:grid lg:grid-cols-2 gap-16">
       <SvelteMarkdown source={Publishing} />

@@ -11,8 +11,9 @@
 
   body {
     background-color: #F2E57C;
-    //background-image: url("/images/gamma_background.png");
-    background-position: top left;
+    background-image: url("/images/gamma_background.png");
+    background-position: top center;
+    background-size: 2000px; 
     background-repeat: no-repeat;
     font-family: 'IBM Plex Sans',
     sans-serif;
