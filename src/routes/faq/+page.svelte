@@ -27,8 +27,6 @@
     qIndex = -1;
     faqSource = tabs[currentTab][1];
     faqParsed = marked.parse(faqSource);
-    //console.log(questions);
-    //console.log(answers);
   }
 
   const renderer = {
@@ -80,12 +78,6 @@
   <div class="values-faq mb-12">
     <div class="lg:grid lg:grid-cols-2 gap-8 mb-4">
       {@html faqParsed}
-      <!--{#if questions != undefined }
-        {#each questions as q, index}
-          <div class="faq-q">{@html q}</div>
-          <div class="faq-a">{@html answers[index]}</div>
-        {/each}
-      {/if}-->
     </div>
   </div>
 </div>
