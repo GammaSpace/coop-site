@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,26 +10,26 @@
   }
 
   body {
-    background-color: #F2E57C;
+    background-color: #f2e57c;
     background-image: url("/images/gamma_background.png");
     background-position: top center;
-    background-size: 2000px; 
+    background-size: 2000px;
     background-repeat: no-repeat;
-    font-family: 'IBM Plex Sans',
-    sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
   }
 
-  p, li {
-    @apply text-lg
+  p,
+  li {
+    @apply text-lg;
   }
   p {
-    @apply mt-4 leading-[1.6rem]; 
+    @apply mt-4 leading-[1.6rem];
   }
   ul {
-    @apply mt-4
+    @apply mt-4;
   }
   li {
-    @apply ml-4
+    @apply ml-4;
   }
   a {
     @apply text-black underline font-bold;
@@ -82,6 +82,6 @@
   }
 
   .activity-box {
-    @apply bg-gammaYellowLight px-4 py-2 mb-8 rounded-sm;
+    @apply bg-gammaYellowLight px-4 py-2 pb-4 mb-8 rounded-sm;
   }
 }
