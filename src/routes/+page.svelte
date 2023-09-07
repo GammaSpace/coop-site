@@ -43,7 +43,7 @@
   </div>
 </div>
 <h2 class="pt-8">Current Activities</h2>
-<div class="lg:grid lg:grid-cols-2 pt-4 gap-8">
+<div class="md:grid md:grid-cols-2 pt-4 gap-4 lg:gap-8">
   <div class="activity-box">
     <h4>Investment Readiness Program</h4>
     <div class="bg-purple-200 mb-8">
