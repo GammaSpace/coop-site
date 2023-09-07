@@ -37,9 +37,9 @@
       </a>
     </div>
     <div class="mt-8 md:mt-0 md:order-1">
-      <p class="text-center text-base leading-6 text-black">
+      <p class="text-center md:text-left md:pr-8 text-base leading-6 text-black">
         &copy; 2011-{curDate} Gamma Space
-        Collaborative Studio.
+        Collaborative Studio, a registered non-profit N<sup class="sups">o.</sup> 839164-5
       </p>
     </div>
   </div>
