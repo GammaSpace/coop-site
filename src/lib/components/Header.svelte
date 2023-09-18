@@ -35,7 +35,7 @@
         <div class="py-4"><a class="text-white text-xl uppercase" on:click={()=>{navOpen = !navOpen;}} href="{item[1]}">[{item[0]}]</a></div>
       {/each}
       <div class="absolute top-0 right-8 ">
-        <p><button class="text-white -mt-1 -mr-4" on:click={()=>{navOpen = !navOpen;}}>{@html gamma_burst_white}</button></p>
+        <p><button class="text-white -mt-1 -mr-5 w-[45px] h-auto" on:click={()=>{navOpen = !navOpen;}}>{@html gamma_burst_white}</button></p>
       </div>
     </div>
   </div>

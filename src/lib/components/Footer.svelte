@@ -3,7 +3,7 @@
   const curDate = new Date().getFullYear();
 </script>
 
-<footer class="bottom-0 max-w-screen-xl mx-auto px-8">
+<footer class="bottom-0 max-w-screen-xl mx-auto px-8 pt-6">
   <hr class="border-2 border-black mx-auto w-[95%]"/>
   <div
     class="max-w-screen-xl mx-auto pt-4 pb-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8"

@@ -25,6 +25,7 @@
   },
   "type": "module",
   "dependencies": {
-    "fauna": "^1.0.1"
+    "fauna": "^1.0.1",
+    "marked-custom-heading-id": "^2.0.4"
   }
 }

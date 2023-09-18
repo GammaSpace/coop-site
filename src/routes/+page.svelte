@@ -6,6 +6,10 @@
   import Publishing from "$lib/content/home/Publishing.md?raw";
   import IRP from "$lib/content/home/IRP.md?raw";
   import MemberJam from "$lib/content/home/MemberJam.md?raw";
+  import { marked } from "marked";
+  import customHeadingId from "marked-custom-heading-id";
+  
+  marked.use(customHeadingId());
 </script>
 
 <div class="max-w-[800px]">
