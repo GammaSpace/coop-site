@@ -1,1 +1,1 @@
-Classic extreme action sports at their best: on ONE WHEEL! Perform unicycle stunts and combos with style as you complete goals to unlock new levels, characters, cheats, and more! Featuring REAL unicycle pros and REAL unicycle tricks.
+Classic EXTREME action sports at their best: on ONE WHEEL! Perform unicycle stunts and combos with style, smashing goals, unlocking new levels, characters, cheats, and more! Featuring REAL unicycle pros, REAL unicycle tricks, REAL underground jams, and REAL retro play that begs for one more run!
