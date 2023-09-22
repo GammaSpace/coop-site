@@ -6,9 +6,11 @@ export async function load({ fetch, params }) {
   const description = await (await fetch(`/content/games/${params.slug}/description.md`)).text();
   const features = await (await fetch(`/content/games/${params.slug}/features.md`)).text();
   const about = await (await fetch(`/content/games/${params.slug}/about.md`)).text();
-  const gamma = await (await fetch(`/content/games/gammapub.md`)).text();
+  const links = await (await fetch(`/content/games/${params.slug}/links.md`)).text();
+  const screenshots = await (await fetch(`/content/games/${params.slug}/screenshots.md`)).text();
   const logo = URL.createObjectURL( await (await fetch(`/content/games/${params.slug}/logo.png`)).blob() );
   const hero = URL.createObjectURL( await (await fetch(`/content/games/${params.slug}/hero.png`)).blob() );
+  const gamma = await (await fetch(`/content/games/gammapub.md`)).text();
   
 	return {
     title,
@@ -17,8 +19,10 @@ export async function load({ fetch, params }) {
     description,
     features,
     about,
-    gamma,
+    links,
+    screenshots,
     logo,
-    hero
+    hero,
+    gamma
 	}
 }

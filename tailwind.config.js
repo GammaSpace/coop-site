@@ -6,6 +6,7 @@ export default {
       colors: {
         gammaYellowBackground: "#F2E57C",
         gammaYellowLight: "#FFF6B8",
+        gammaPurpleGray: "#E6E6E6"
       }
     },
   },
