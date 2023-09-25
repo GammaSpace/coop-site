@@ -5,6 +5,7 @@ export async function load({ fetch, params }) {
   const intro = await (await fetch(`/content/games/${params.slug}/intro.md`)).text();
   const description = await (await fetch(`/content/games/${params.slug}/description.md`)).text();
   const features = await (await fetch(`/content/games/${params.slug}/features.md`)).text();
+  const impact = await (await fetch(`/content/games/${params.slug}/impact.md`)).text();
   const about = await (await fetch(`/content/games/${params.slug}/about.md`)).text();
   const links = await (await fetch(`/content/games/${params.slug}/links.md`)).text();
   const screenshots = await (await fetch(`/content/games/${params.slug}/screenshots.md`)).text();
@@ -18,6 +19,7 @@ export async function load({ fetch, params }) {
     intro,
     description,
     features,
+    impact,
     about,
     links,
     screenshots,

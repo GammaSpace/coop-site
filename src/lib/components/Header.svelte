@@ -20,7 +20,7 @@
 <nav class="top-0 w-full fixed md:relative z-10 md:px-6 md:max-w-screen-xl md:mx-auto">
   <div class="main-header hidden md:block px-12 py-4">    
     {#if path != "/"}
-      <div class="max-w-[150px]">{@html gsLogo}</div>
+      <div class="max-w-[150px]"><a href="/">{@html gsLogo}</a></div>
     {/if}      
     <div class="absolute right-24 top-2">
       [{#each menu as item, index}

@@ -2,6 +2,7 @@
   import SvelteMarkdown from 'svelte-markdown';
   import { marked, Renderer } from 'marked';
   import { onMount } from 'svelte';
+  import { impact_icon } from '$lib/svg/svg';
 
   /** @type {import('./$types').PageData} */
 	export let data;
@@ -11,6 +12,7 @@
   let headerWidth: number;
   let screenshots:string = "";
   let links:string = "";
+  let impact: string = "";
   $: headerWidth;
 
   const screenshotRenderer = {
@@ -21,6 +23,19 @@
     },
     paragraph(text:string) {
       return `${text}`
+    }
+  }
+
+  const impactRenderer = {
+    paragraph(text:string) {
+      return `
+        <div class="flex flex-wrap relative rounded-sm my-4 mt-6 bg-gammaYellowLight">
+          <div class="relative impact-icon w-[45px] rounded-sm bg-black">
+            <img class="absolute w-full px-[6px] pt-[6px]" src="/images/icons/impact.svg"/>
+          </div>
+          <div class="px-2 py-1 w-[calc(100%-45px)]"><p class="my-0 py-0">${text}</-></div>
+        </div>
+      `
     }
   }
 
@@ -37,6 +52,8 @@
   function initCustomMarked() {
     marked.use({renderer:screenshotRenderer});
     screenshots = marked.parse( data.screenshots );
+    marked.use({renderer:impactRenderer});
+    impact = marked.parse( data.impact );
     marked.use({renderer:linksRenderer});
     links = marked.parse( data.links );
   }
@@ -56,17 +73,20 @@
 </div>
 <div>
   <h1 class="mb-4">{data.title}</h1>
-  <div class="md:grid md:grid-cols-2 pt-4 gap-4 lg:gap-16">
+  <div class="md:grid md:grid-cols-2 pt-4 gap-8 lg:gap-12 xl:gap-16">
     <div>
       <div class="rounded-md border-2 px-4 pb-4 mb-6 border-black">
         <SvelteMarkdown source={data.intro} />
       </div>
-      <h2>Full Description</h2>
+      <h2>Description</h2>
       <SvelteMarkdown source={data.description} />
       <h2>Features</h2>
       <SvelteMarkdown source={data.features} />
+      <h2>Impact</h2>
+      {@html impact}
     </div>
     <div>
+      <h2 class="md:mt-0 mb-6">Screenshots</h2>
       <div class="screenshot-box">
         {@html screenshots}
       </div>
