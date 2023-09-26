@@ -1,3 +1,5 @@
-- Join the ranks of contemporary pro unicyclists as you hop, grind, walltap, footplant, and twist your way through this high energy blast of radical stunts of a sort never before seen in a video game.
-- The world's first authentic street unicycling video game, taking the sport as serious as the pros, with the tight expressive controls and energetic fun to match.
-- Music tracks that take off like a rocket, featuring ample horn fuelled ska bops, and powered up distorted punk bangers from your new favourite bands to ensure you're humming to your self and bobbing your head to the beat well after you've put the controller down. 
+- **The world's first authentic street unicycling video game!** Taking the sport as seriously as the pros with expressive keyboard/gamepad controls and infectious energy!
+- **Join the ranks of contemporary pro unicyclists!** Hop, grind, wall-tap, footplant, and twist your way through a full career mode with unlockable riders!
+- **Fresh retro looks!** Surreal-life locations get transformed into yester-console playgrounds for you to explore and trick your way to every secret! 
+- **Tracks that take off like a rocket!** Featuring horn fuelled ska bops and powered up punk bangers from your new favorite bands keeps you humming to yourself and bobbing to the beat!
+- **No experience necessary!** Learn how to ride in an informative virtual unicycle simulator that will have you up and rolling in no time, even if you question reality itself!
