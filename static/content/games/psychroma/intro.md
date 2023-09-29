@@ -1,1 +1,1 @@
-Classic **EXTREME** action sports at their best: on **ONE WHEEL**! Perform unicycle stunts and combos with style, smashing goals, unlocking new levels, characters, cheats, and more! Featuring **REAL** unicycle pros, **REAL** unicycle tricks, **REAL** underground jams, and **REAL** retro play that begs for one more run!
+A narrative-driven side-scroller where you play as a digital medium. Confront the past by piecing together the broken memories of a cybernetic house, and exorcise the ghosts in the machine.
