@@ -73,7 +73,7 @@
 </div>
 <div>
   <h1 class="mb-4">{data.title}</h1>
-  <div class="md:grid md:grid-cols-2 pt-4 gap-8 lg:gap-12 xl:gap-16">
+  <div class="lg:grid lg:grid-cols-2 pt-4 gap-8 lg:gap-12 xl:gap-16">
     <div>
       <div class="rounded-md border-2 px-4 pb-4 mb-6 border-black">
         <SvelteMarkdown source={data.intro} />
@@ -84,24 +84,28 @@
       <SvelteMarkdown source={data.features} />
       <h2>Impact</h2>
       {@html impact}
+      <div class="hidden xl:block mt-8">
+        <h1>About {data.author}</h1>
+        <SvelteMarkdown source={data.about} />
+      </div>
     </div>
     <div>
-      <h2 class="md:mt-0 mb-6">Screenshots</h2>
+      <h2 class="lg:hidden mt-6 lg:mt-0 mb-6">Screenshots</h2>
       <div class="screenshot-box">
         {@html screenshots}
       </div>
-      <h3 class="mb-1">Links</h3>
+      <h3 class="mb-2">Links</h3>
       <div class="link-box bg-black px-4 py-2 mb-6">
         {@html links}
       </div>
     </div>
   </div>  
-  <div class="my-4 mb-6">
+  <div class="xl:hidden my-4 mt-8 mb-6">
     <h1>About {data.author}</h1>
     <SvelteMarkdown source={data.about} />
   </div>
   <div class="my-4 ">
-    <h1 class="mb-4">Gamma Space Publishing</h1>
+    <h1 class="xl:mt-8 mb-4">Gamma Space Publishing</h1>
     <div class="rounded-md border-2 px-4 pb-4 border-black">
       <SvelteMarkdown source={data.gamma} />
     </div>
