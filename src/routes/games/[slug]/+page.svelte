@@ -2,7 +2,6 @@
   import SvelteMarkdown from 'svelte-markdown';
   import { marked, Renderer } from 'marked';
   import { onMount } from 'svelte';
-  import { impact_icon } from '$lib/svg/svg';
 
   /** @type {import('./$types').PageData} */
 	export let data;

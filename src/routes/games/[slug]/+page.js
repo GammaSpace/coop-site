@@ -1,5 +1,6 @@
 /** @type {import('../$types').PageLoad} */
 export async function load({ fetch, params }) {
+  
   const title = await (await fetch(`/content/games/${params.slug}/title.md`)).text();
   const author = await (await fetch(`/content/games/${params.slug}/author.md`)).text();
   const intro = await (await fetch(`/content/games/${params.slug}/intro.md`)).text();

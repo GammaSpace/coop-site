@@ -105,4 +105,8 @@
   .link-box img {
     @apply inline-block w-[30px];
   }
+
+  .link-sep a {
+    @apply w-full bg-black px-2 py-2 rounded-md text-center inline-block;
+  }
 }
