@@ -6,6 +6,7 @@
   import Publishing from "$lib/content/home/Publishing.md?raw";
   import IRP from "$lib/content/home/IRP.md?raw";
   import MemberJam from "$lib/content/home/MemberJam.md?raw";
+  import COCUpdate from "$lib/content/home/COCUpdate.md?raw";
   import { marked } from "marked";
   import customHeadingId from "marked-custom-heading-id";
   
@@ -62,4 +63,11 @@
     </div>
     <SvelteMarkdown source={MemberJam} />
   </div>
+  <!--div class="activity-box">
+    <h4>Code of Conduct - Statement of Solidarity with Palestine</h4>
+    <div class="bg-purple-200 mb-8">
+      <img class="w-full mx-auto overflow-hidden" src="/images/coc_image.png"/>
+    </div>
+    <SvelteMarkdown source={COCUpdate} />
+  </div-->
 </div>
