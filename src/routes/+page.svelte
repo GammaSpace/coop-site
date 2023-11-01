@@ -63,11 +63,11 @@
     </div>
     <SvelteMarkdown source={MemberJam} />
   </div>
-  <!--div class="activity-box">
-    <h4>Code of Conduct - Statement of Solidarity with Palestine</h4>
+  <div class="activity-box">
+    <h4>Anti-Oppression and Decolonization Framework</h4>
     <div class="bg-purple-200 mb-8">
       <img class="w-full mx-auto overflow-hidden" src="/images/coc_image.png"/>
     </div>
     <SvelteMarkdown source={COCUpdate} />
-  </div-->
+  </div>
 </div>
