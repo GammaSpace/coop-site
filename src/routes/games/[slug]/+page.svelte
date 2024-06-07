@@ -49,7 +49,7 @@
 
   function initCustomMarked() {
     marked.use({ renderer: screenshotRenderer });
-    screenshots = marked.parse(data.screenshots);
+    let screenshots = marked.parse(data.screenshots);
     marked.use({ renderer: impactRenderer });
     impact = marked.parse(data.impact);
     marked.use({ renderer: linksRenderer });
@@ -98,7 +98,7 @@
       </div>
       <h3 class="mb-2">Links</h3>
       <div class="link-box bg-black px-4 py-2 mb-6">
-        {@html links}
+        <SvelteMarkdown source={data.links} />
       </div>
     </div>
   </div>
