@@ -1,5 +1,5 @@
-- **The world's first authentic street unicycling video game!** Taking the sport as seriously as the pros with expressive keyboard/gamepad controls and infectious energy!
-- **Join the ranks of contemporary pro unicyclists!** Hop, grind, wall-tap, footplant, and twist your way through a full career mode with several unlockable riders!
-- **Fresh retro looks!** Real-life inspired spots transformed into yester-console playgrounds for you to explore and combo your way to unlocking secrets! 
-- **Off the rails tracks**! Featuring horn-fuelled ska bops and powered up punk bangers from your new favorite bands will keep you humming to yourself and bobbing to the beat!
-- **No unicycling experience required!** Learn how to ride a virtual unicycle that will have you up and rolling in no time, even if you question reality itself!
+- **Time Jumping**. Use a cybernetic memory card system to navigate through time.
+- **Cyber Possession**. Allow the digital ghosts of the past to possess your body in order to descramble memories, solve puzzles, and see through their perspectives.
+- **Communicate With The Dead**. Use an interactive Ouija system to speak with ghosts and gather info that would otherwise be hidden.
+- **Surgery**. Perform surgical procedures to help stabilize injured victims.
+- **Diverse Characters**. Play as [HAZE], our non-binary, mixed-race protagonist; expplore the relationship between [SALEM], a trans woman, and her disabled lesbian partner, [AGATHA]; engage with neurodivergent NPCs.

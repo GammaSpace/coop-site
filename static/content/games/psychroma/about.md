@@ -1,7 +1,7 @@
-daffodil & friends is the gaming label of daffodil jenx and their collaborators. Working from a common framework of inclusivity and non-exploitation, daffodil & friends came together, including Brodie Anderson-Pilon (environment and prop artist) and Jesse Cramer (sound design), to develop Street Uni X.
+Rocket Adrift Games is a Toronto-based indie studio made up of Sloane Smith, Lindsay Rollins and Titus McNally. They make narrative-driven games that include their previous games [Raptor Boyfriend: A High School Romance](https://rocketadrift.com/raptorboyfriend/), and [Order A Pizza: A Visual Novel](https://rocketadrift.com/order-a-pizza-a-visual-novel/).
 
-### About daffodil
+Our Mission as a developer is to tell personal narratives that highlight the perspectives of LGBTQIA+ and BIPOC experiences while also showcasing an outsider lens to Canadian culture.
 
-daffodil Jenx is a non-binary, multidisciplinary artist and athlete. They combine street sports, clowning, music-making, and game development into a truly unique personal style that celebrates our collective differences while always ensuring visibility on those marginalized from creative and tech spaces.
+We aim to emotionally enrich underrepresented players through gameplay and storytelling, and endear others to the struggles of our diverse characters with humor and unflinching honesty.
 
-daffodil became a Gamma Space community in 2022 as a _Baby Ghost_, a participant in [Weird Ghosts x Gamma Space Peer Accelerator](https://weirdghosts.ca/baby-ghosts). They later became a full Gamma Space member in 2023, where they have been contributing to the community not only through their game design and programming expertise, but as a valued part of all social activities.
+By 2025 the studio will be contributing to the conversation of diversifying perspectives in the industry through it's projects as well as provide fulfilling positions for BIPOC & LGBTQIA+ at our studio.

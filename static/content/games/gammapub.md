@@ -1,3 +1,5 @@
-Currently in development with support from [Weird Ghosts](https://weirdghosts.ca/) and the Canadian Government's [Investment Readiness Program](https://irp-ppi.ca/en/), our **not-for-profit community publishing program** is a regenerative model for supporting the pre-development, production, launch, and post-launch of member games through funding, project management, audience development, and platform support.
+Our co-op's publishing node supports the production, marketing, launch, and post-launch activities of games created by our members, ensuring thethe studio's **impact goals** are recognized as importantly as their game's *features*.
 
-We are currently producing three games from our member community and will be announcing further details soon!
+Our not-for-profit model encourages a regenerative approach to community support that includes funding, project management, audience development, and platform support.
+
+Our first games include Rocket Adrift's [Psychroma](/games/psychroma) and daffodil & friends' [Street Uni X](/games/street-uni-x).

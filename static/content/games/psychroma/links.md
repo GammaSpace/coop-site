@@ -1,5 +1,5 @@
-![Steam Icon](/images/platforms/steam.svg "Street Uni X on Steam") [Street Uni X on Steam](https://store.steampowered.com/app/2204900/STREET_UNI_X/)
+![Steam Icon](/images/platforms/steam.svg "Psychroma on Steam") [Psychroma on Steam](https://store.steampowered.com/app/1879950/Psychroma/)
 
-![Steam Icon](/images/platforms/instagram.svg "daffodil on Instagram") [daffodil on Instagram](https://store.steampowered.com/app/2204900/STREET_UNI_X/)
+![Instagram Icon](/images/platforms/instagram.svg "Rocket Adrift on Instagram") [Rocket Adrift on Instagram](https://www.instagram.com/rocketadrift/)
 
-![Steam Icon](/images/platforms/twitter.svg "daffodil on Twitter") [daffodil on Twitter](https://store.steampowered.com/app/2204900/STREET_UNI_X/)
+![Twitter Icon](/images/platforms/twitter.svg "Rocket Adrift on Twitter") [Rocket Adrift on Twitter](https://x.com/RocketAdrift)

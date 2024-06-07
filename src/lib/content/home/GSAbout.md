@@ -1,1 +1,1 @@
-# **We are a cooperative studio of game developers, artists, and creative technologists dedicated to exploring community-led flows of individual and collective support.**
+# **We are a cooperative studio of game developers, artists, and creative technologists dedicated to community-led flows of individual and collective support.**
