@@ -1,6 +1,10 @@
 
 ## Member Games
 
+### Publishing
+
+[Game Trailers on YouTube](https://youtube.com/playlist?list=PLX7kqhbDl7e4ug7fGLHhnCCu6IUdSpuAg&si=Aqj3_x2sE8CsmHr5)
+
 ### Psychroma
 
 [Psychroma on Steam](https://store.steampowered.com/app/1879950/Psychroma/)
