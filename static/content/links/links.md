@@ -1,9 +1,8 @@
-
-## Member Games
-
-### Publishing
+## Publshing
 
 [Game Trailers on YouTube](https://youtube.com/playlist?list=PLX7kqhbDl7e4ug7fGLHhnCCu6IUdSpuAg&si=Aqj3_x2sE8CsmHr5)
+
+## Member Games
 
 ### Psychroma
 
