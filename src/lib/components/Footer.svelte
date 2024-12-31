@@ -1,5 +1,5 @@
 <script>
-  import { phone, email, insta, twitter } from "$lib/svg/svg";
+  import { phone, email, insta, bluesky } from "$lib/svg/svg";
   const curDate = new Date().getFullYear();
 </script>
 
@@ -29,11 +29,11 @@
         {@html insta}
       </a>
       <a
-        href="https://twitter.com/gammaspaceto"
+        href="https://bsky.app/profile/gammaspace.bsky.social"
         class="ml-6 text-black hover:text-gray-500"
       >
-        <span class="sr-only">Twitter</span>
-        {@html twitter}
+        <span class="sr-only">Bluesky</span>
+        {@html bluesky}
       </a>
     </div>
     <div class="mt-8 md:mt-0 md:order-1">
