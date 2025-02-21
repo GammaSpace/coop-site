@@ -28,6 +28,14 @@
 
 ## Our Partners
 
-Social impact investors, [Weird Ghosts](https://weirdghosts.ca/); on [TikTok](https://www.tiktok.com/@weird__ghosts), [LinkedIn](https://www.linkedin.com/company/weird-ghosts) and [BlueSky](https://bsky.app/profile/weirdghosts.ca).
+### Weird Ghosts
 
-[Baby Ghosts](https://babyghosts.fund/peer-accelerator) grants and peer accelerator; on [TikTok](https://www.tiktok.com/@weird__ghosts) and [BlueSky](https://bsky.app/profile/weirdghosts.ca)
+[Weird Ghosts](https://weirdghosts.ca/)
+
+[Weird Ghosts on TikTok](https://www.tiktok.com/@weird__ghosts)
+
+[Weird Ghosts on BlueSky](https://bsky.app/profile/weirdghosts.ca)
+
+### Baby Ghosts
+
+[Baby Ghosts](https://babyghosts.fund/peer-accelerator)
