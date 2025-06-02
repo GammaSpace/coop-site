@@ -43,10 +43,6 @@
     @apply text-3xl font-bold mt-4;
   }
 
-  h2.faq {
-    @apply text-2xl mt-4;
-  }
-
   h3 {
     @apply mt-6 uppercase font-bold text-2xl;
   }
@@ -69,16 +65,6 @@
 
   .intro p {
     @apply max-w-[400px];
-  }
-
-  .faq-q h2,
-  .faq-q h3,
-  .faq-q h3 {
-    @apply text-xl md:text-2xl mt-4 border-2 border-black rounded-md px-4 py-2 mb-6 decoration-transparent;
-  }
-
-  .faq-a h2 {
-    @apply text-2xl;
   }
 
   .activity-box {
