@@ -1,1 +1,1 @@
-# **We are a cooperative studio of game developers, artists, and creative technologists dedicated to community-led flows of individual and collective support.**
+# **The Gamma Space co-op is a community where video game creators thrive personally and collectively while developing equitable, caring, and accountable practices that challenge toxic game industry norms.**
